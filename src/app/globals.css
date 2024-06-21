@@ -28,6 +28,7 @@ body {
 
 @layer utilities {
   .text-balance {
-    text-wrap: balance;
+    /* Corrected property: Assuming you want text to wrap normally */
+    overflow-wrap: break-word;
   }
 }
